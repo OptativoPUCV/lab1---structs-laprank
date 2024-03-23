@@ -259,3 +259,9 @@ test.c:47:6: error: ‘readIntArray’ defined but not used [-Werror=unused-func
 cc1: all warnings being treated as errors
 Compilation failed
 b19f247
+Sat 23 Mar 2024 11:25:36 PM UTC: 
+ exercises.c | 2 ++
+ 1 file changed, 2 insertions(+)
+ tests:  0|0
+total_score: 70/70
+7de89db
