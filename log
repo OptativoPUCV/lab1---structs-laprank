@@ -143,3 +143,19 @@ Sat 23 Mar 2024 09:49:15 PM UTC:
  tests:  0|3
 total_score: 40/70
 6af6cdc
+Sat 23 Mar 2024 10:11:47 PM UTC: 
+ exercises.c | 18 +++++++++++-------
+ 1 file changed, 11 insertions(+), 7 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘checkSorted’:
+exercises.c:117:10: error: ‘acsen’ undeclared (first use in this function); did you mean ‘ascen’?
+  117 |   return acsen ? 1 : descen ? -1 : 0;
+      |          ^~~~~
+      |          ascen
+exercises.c:117:10: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:118:1: error: control reaches end of non-void function [-Werror=return-type]
+  118 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+4b24a7b
