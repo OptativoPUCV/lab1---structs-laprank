@@ -122,3 +122,18 @@ Sat 23 Mar 2024 09:25:31 PM UTC:
  tests:  0|3
 total_score: 40/70
 0fa813e
+Sat 23 Mar 2024 09:48:51 PM UTC: 
+ exercises.c | 13 ++++++++++++-
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘checkSorted’:
+exercises.c:104:3: error: ‘ayu’ undeclared (first use in this function)
+  104 |   ayu = 0;
+      |   ^~~
+exercises.c:104:3: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:114:1: error: control reaches end of non-void function [-Werror=return-type]
+  114 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+2496b2b
