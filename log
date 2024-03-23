@@ -229,3 +229,9 @@ exercises.c:182:7: error: ‘ultimo’ undeclared (first use in this function)
 exercises.c:182:7: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 0a39551
+Sat 23 Mar 2024 11:13:33 PM UTC: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  0|2
+total_score: 50/70
+c3e6811
