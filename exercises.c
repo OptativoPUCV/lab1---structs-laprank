@@ -114,7 +114,7 @@ int checkSorted(int arr[], int size) {
       return 0;
     }
   }
-  return acsen ? 1 : descen ? -1 : 0;
+  return ascen ? 1 : descen ? -1 : 0;
 }
 
 /*
